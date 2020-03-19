@@ -36,4 +36,4 @@ The following image is an example:
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
 
 - - -
-© 2020 Jawm17. All Rights Reserved.
+© 2020 Michael Sanderson. All Rights Reserved.
