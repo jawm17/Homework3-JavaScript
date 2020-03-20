@@ -14,6 +14,7 @@ function writePassword() {
 function generatePassword() {
   var types = [];
   var pass = "";
+  
   // Prompts ---------------------------------------------------------------------------------------------------------
   var numCharacters = numCharactersChecker();
   if (confirm("Click OK to include special characters")) {
