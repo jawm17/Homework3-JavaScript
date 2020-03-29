@@ -18,13 +18,13 @@ function generatePassword() {
   // Prompts ---------------------------------------------------------------------------------------------------------
   var numCharacters = numCharactersChecker();
   if (confirm("Click OK to include special characters")) {
-    types.push(special);} // If user confrimed special characters, add special array to types array
+    types.push(special);} // If user confirmed special characters, add special array to types array
   if (confirm("Click OK to include numeric characters")) {
-    types.push(numbers);} // If user confrimed numeric characters, add numbers array to types array
+    types.push(numbers);} // If user confirmed numeric characters, add numbers array to types array
   if (confirm("Click OK to include lowercase characters")) {
-    types.push(alphabet);} // If user confrimed lowercase characters, add alphabet array to types array
+    types.push(alphabet);} // If user confirmed lowercase characters, add alphabet array to types array
   if (confirm("Click OK to include uppercase characters")) {
-    types.push(bigAlphabet);} // If user confrimed uppercase characters, add bigAlphabet array to types array
+    types.push(bigAlphabet);} // If user confirmed uppercase characters, add bigAlphabet array to types array
   // Prompts ---------------------------------------------------------------------------------------------------------
 
   // For loop adds a random character (based on the user's inputs) to "pass", numCharacters amount of times
